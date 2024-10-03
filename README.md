@@ -32,3 +32,14 @@ git clone https://github.com/<your_user>/<your_repository> ~/.config/nvim
 ```shell
 nvim
 ```
+
+## 配置
+
+### 依赖
+
+`python3-venv`
+
+```shell
+# Debain/Deepin
+sudo apt install python3-venv
+```
