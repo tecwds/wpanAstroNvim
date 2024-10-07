@@ -9,6 +9,8 @@ return {
   { import = "astrocommunity.indent.indent-rainbowline" },
   { import = "astrocommunity.editing-support.auto-save-nvim" },
   { import = "astrocommunity.pack.lua" },
-  { import = "astrocommunity.pack.rust" },
+  -- { import = "astrocommunity.pack.rust" },
+  -- { import = "astrocommunity.pack.cpp" },
+  -- { import = "astrocommunity.pack.cmake" },
   -- import/override with your plugins folder
 }
