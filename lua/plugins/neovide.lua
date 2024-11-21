@@ -41,7 +41,7 @@ return {
         neovide_refresh_rate = 90,
 
         -- 设置禁止刷新率
-        neovide_refresh_rate_idle = 5,
+        -- neovide_refresh_rate_idle = 5,
 
         -- 确认退出
         neovide_confirm_quit = true,
