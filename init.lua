@@ -15,7 +15,11 @@ if not pcall(require, "lazy") then
   vim.cmd.quit()
 end
 
--- -- 配置 neovide 
+-- 修复乱七八糟的回车键
+vim.api.nvim_set_keymap('', '<kEnter>', '<Enter>', {})
+vim.api.nvim_set_keymap('i', '<kEnter>', '<Enter>', {})
+vim.api.nvim_set_keymap('c', '<kEnter>', '<Enter>', {})
+
 -- if vim.g.neovide then
 --   -- 字体以及字体大小
 --   vim.o.guifont = "FantasqueSansM Nerd Font:h16"
@@ -36,7 +40,7 @@ end
 --
 --   -- 没看出来是啥
 --   vim.g.neovide_floating_blur_amount_x = 4.0
---   vim.g.neovide_floating_blur_amount_y = 4.0
+-- vim.g.neovide_floating_blur_amount_y = 4.0
 --
 --   vim.g.neovide_floating_shadow = true
 --   vim.g.neovide_floating_z_height = 10
