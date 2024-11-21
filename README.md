@@ -1,5 +1,7 @@
 # wpan's astroNvim 配置
 
+## 持续更新中，更新时间跨度较长
+
 **NOTE:** 需要 `AstroNvim` 的版本 `v4+`
 
 可以从 [AstroNvim](https://github.com/AstroNvim/AstroNvim) 中查看官方模板
