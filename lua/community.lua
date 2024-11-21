@@ -10,7 +10,11 @@ return {
   { import = "astrocommunity.colorscheme.catppuccin" },
   { import = "astrocommunity.indent.indent-rainbowline" },
   { import = "astrocommunity.editing-support.auto-save-nvim" },
+
+  -- lua 包
   { import = "astrocommunity.pack.lua" },
+  -- markdown 包
+  { import = "astrocommunity.pack.markdown" },
   -- { import = "astrocommunity.pack.rust" },
   -- { import = "astrocommunity.pack.cpp" },
   -- { import = "astrocommunity.pack.cmake" },
